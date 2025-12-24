@@ -1,0 +1,298 @@
+{
+  "languageDefault": "en",
+  "meta": {
+    "title": {
+      "en": "Weigang Lu - Academic Homepage",
+      "zh": "陆维港 - 学术主页"
+    },
+    "description": {
+      "en": "Academic homepage of Weigang Lu",
+      "zh": "陆维港的学术主页"
+    }
+  },
+  "labels": {
+    "introTitle": {"en": "Introduction", "zh": "简介"},
+    "interestsTitle": {"en": "Research Interests", "zh": "研究方向"},
+    "publishedTitle": {"en": "Published", "zh": "已发表论文"},
+    "submittedTitle": {"en": "Submitted", "zh": "已投稿论文"},
+    "aboutTitle": {"en": "About", "zh": "简介"},
+    "honorsTitle": {"en": "Honors", "zh": "荣誉奖励"},
+    "publicationsTitle": {"en": "Publications", "zh": "论文"},
+    "educationTitle": {"en": "Education", "zh": "教育经历"},
+    "servicesTitle": {"en": "Services", "zh": "学术服务"},
+    "servicesJournalTitle": {"en": "Journal Reviewer", "zh": "期刊审稿人"},
+    "servicesConferenceTitle": {"en": "Conference Reviewer", "zh": "会议审稿人"},
+    "correspondingNote": {"en": "* indicates corresponding author", "zh": "＊为通讯作者"}
+  },
+  "nav": [
+    {"id": "home", "icon": "fa-house", "title": {"en": "Home", "zh": "主页"}},
+    {"id": "about", "icon": "fa-user", "title": {"en": "About", "zh": "简介"}},
+    {"id": "publications", "icon": "fa-file-lines", "title": {"en": "Publications", "zh": "论文"}},
+    {"id": "honors", "icon": "fa-trophy", "title": {"en": "Honors", "zh": "荣誉奖励"}},
+    {"id": "education", "icon": "fa-graduation-cap", "title": {"en": "Education", "zh": "教育经历"}},
+    {"id": "services", "icon": "fa-handshake", "title": {"en": "Services", "zh": "学术服务"}}
+  ],
+  "hero": {
+    "name": {"en": "Weigang Lu", "zh": "陆维港"},
+    "title": {"en": "Postdoctoral Fellow", "zh": "博士后研究员"},
+    "affiliation": {
+      "en": "Department of Civil and Environmental Engineering, HKUST",
+      "zh": "香港科技大学 土木与环境工程系"
+    },
+    "location": {"en": "Hong Kong", "zh": "中国香港"},
+    "avatar": "images/you.jpg",
+    "tagline": {
+      "en": "Semi-supervised learning and graph neural networks",
+      "zh": "半监督学习与图神经网络"
+    },
+    "links": [
+      {
+        "label": {"en": "Email", "zh": "邮箱"},
+        "url": "mailto:weiganglu314@outlook.com",
+        "icon": "fa-envelope"
+      },
+      {
+        "label": {"en": "Google Scholar", "zh": "谷歌学术"},
+        "url": "https://scholar.google.com/citations?user=SThY8qUAAAAJ&hl=en",
+        "icon": "fa-graduation-cap"
+      }
+    ]
+  },
+  "about": {
+    "intro": {
+      "en": [
+        "Weigang Lu is a Postdoctoral Fellow at the Department of Civil and Environmental Engineering at The Hong Kong University of Science and Technology (HKUST).",
+        "He received his Ph.D. in Computer Science from Xidian University."
+      ],
+      "zh": [
+        "陆维港，现为香港科技大学（土木及环境工程系）博士后研究员。",
+        "博士毕业于西安电子科技大学计算机科学与技术学院。"
+      ]
+    },
+    "interests": {
+      "en": [
+        "Research interests include semi-supervised learning and graph neural networks, with publications in top-tier conferences and journals such as NeurIPS, SIGKDD, AAAI, ICDE, and IEEE TKDE.",
+        "He serves as a reviewer for IEEE TKDE, IEEE TNNLS, ACM SIGKDD, AAAI, The Web Conference (WebConf), Neural Networks, and ICDM."
+      ],
+      "zh": [
+        "主要研究方向包括半监督学习与图神经网络，研究成果发表在 NeurIPS、SIGKDD、AAAI、ICDE、IEEE TKDE 等国际顶级会议与期刊上。",
+        "同时担任 IEEE TKDE、IEEE TNNLS、ACM SIGKDD、AAAI、The Web Conference（WebConf）、Neural Networks、ICDM 等学术会议与期刊审稿人。"
+      ]
+    }
+  },
+  "news": [],
+  "publications": {
+    "published": [
+      {
+        "title": "ProGMLP: A Progressive Framework for GNN-to-MLP Knowledge Distillation with Efficient Trade-offs",
+        "authors": "Weigang Lu, Ziyu Guan*, Wei Zhao, Yaming Yang, Yujie Sun, Zheng Liang, Yibing Zhan, Dapeng Tao",
+        "venue": "AAAI",
+        "year": "2026",
+        "image": "images/progmlp.png",
+        "notes": "Oral",
+        "url": "https://arxiv.org/abs/2507.19031"
+      },
+      {
+        "title": "SkipNode: On Alleviating Performance Degradation for Deep Graph Convolutional Networks (Extended Abstract)",
+        "authors": "Weigang Lu, Yibing Zhan, Binbin Lin*, Ziyu Guan*, Liu Liu, Baosheng Yu, Wei Zhao, Yaming Yang, Dacheng Tao",
+        "venue": "ICDE",
+        "year": "2025",
+        "image": "images/skipnode.png",
+        "url": "https://www.computer.org/csdl/proceedings-article/icde/2025/360300e708/26FZDa0f0Pu"
+      },
+      {
+        "title": "AGMixup: Adaptive Graph Mixup for Semi-supervised Node Classification",
+        "authors": "Weigang Lu, Ziyu Guan*, Wei Zhao, Yaming Yang, Yibing Zhan, Yiheng Lu, Dapeng Tao",
+        "venue": "AAAI",
+        "year": "2025",
+        "image": "images/agmixup.png",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34107"
+      },
+      {
+        "title": "Pseudo Contrastive Learning for Graph-based Semi-supervised Learning",
+        "authors": "Weigang Lu, Ziyu Guan*, Wei Zhao, Yaming Yang, Yuanhai Lv, Lining Xing, Baosheng Yu, Dacheng Tao",
+        "venue": "Neurocomputing",
+        "year": "2025",
+        "image": "images/pcl.png",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0925231225000475?casa_token=UUZ_a2Yv3FAAAAAA:J77LeZT0NszjdRVQjU3rqy41Y4XupLB4psS0bkF1ElSvAXNwjdZWjxAHCF_-S4M_bs4ikn4nTCY"
+      },
+      {
+        "title": "AdaGMLP: AdaBoosting GNN-to-MLP Knowledge Distillation",
+        "authors": "Weigang Lu, Ziyu Guan*, Wei Zhao, Yaming Yang",
+        "venue": "SIGKDD",
+        "year": "2024",
+        "image": "images/adagmlp.png",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3637528.3671699?casa_token=du4MZy4OBJIAAAAA:JekmvuyxRPqyJR8hEWtqOV_YMXyGM2jGIZOGfhqqQm1FDQZSMPgDE-A9abxT18i1h1UfMIyLDVUVlg"
+      },
+      {
+        "title": "SkipNode: On Alleviating Performance Degradation for Deep Graph Convolutional Networks",
+        "authors": "Weigang Lu, Yibing Zhan, Binbin Lin*, Ziyu Guan*, Liu Liu, Baosheng Yu, Wei Zhao, Yaming Yang, Dacheng Tao",
+        "venue": "IEEE TKDE",
+        "year": "2024",
+        "image": "images/skipnode.png",
+        "url": "https://ieeexplore.ieee.org/abstract/document/10497904?casa_token=nIVFqOzf-NwAAAAA:ANYocDF_XIeh4Zbw9U87pM3W_F1WWovivraHzLt_fPBMnJXPuIFt2Or1ZeQD6TdkCaHttp-PzQ"
+      },
+      {
+        "title": "NodeMixup: Tackling Under-Reaching for Graph Neural Networks",
+        "authors": "Weigang Lu, Ziyu Guan, Wei Zhao*, Yaming Yang, Long Jin",
+        "venue": "AAAI",
+        "year": "2024",
+        "image": "images/nodemixup.png",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29328"
+      },
+      {
+        "title": "G-NodeMixup: Enhancing Graph Neural Networks Reachability under Extremely Limited Labels",
+        "authors": "Ziyu Guan, Beilei Ling, Weigang Lu*, Meng Yan, Yaming Yang, Wei Zhao, Yibing Zhan, Yiheng Lu, Dapeng Tao",
+        "venue": "Neurocomputing",
+        "year": "2025",
+        "image": "images/gnodemixup.png",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0925231225020508?casa_token=Bg4qDCt2rA8AAAAA:Y0th9qZFO5btKgwHP1PstHg6oBXMwvq5sA-YVX66y4-8h8s8_9NF9GXM4DaQxOFOWUDEIkIBp7Q"
+      },
+      {
+        "title": "Does Noise in the Knowledge Graph Really Harm Recommendations?",
+        "authors": "Meng Yan, Cai Xu, Ziyu Guan, Wei Zhao, Xujing Wang, Beilei Ling, Weigang Lu*",
+        "venue": "Pattern Recognition",
+        "year": "2025",
+        "image": "images/yeah.png",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0031320325013202?casa_token=qjzKzjK2kHAAAAAA:WtUpGO3Yek4hTtgK7BE63NPh9XNB3Mzjq3oOvBKMElUpMH0wnaNqtoYoprVega9ngVGkzVeJenE"
+      },
+      {
+        "title": "Defining and Discovering Hyper-meta-paths for Heterogeneous Hypergraphs",
+        "authors": "Yaming Yang, Ziyu Zheng, Weigang Lu, Zhe Wang, Xinyan Huang, Wei Zhao, Ziyu Guan",
+        "venue": "NeurIPS",
+        "year": "2025",
+        "image": "images/hhnn.png",
+        "url": "https://openreview.net/forum?id=Uipk3FzI09"
+      },
+      {
+        "title": "Enhancing Homophily-Heterophily Separation: Relation-Aware Learning in Heterogeneous Graphs",
+        "authors": "Ziyu Zheng, Yaming Yang, Ziyu Guan, Wei Zhao*, Weigang Lu",
+        "venue": "SIGKDD",
+        "year": "2025",
+        "image": "images/rash.png",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3711896.3736936?casa_token=yeYvro4BvpMAAAAA:-Iqx1k_-tgIa6cZhG-iQ338Ir5lzJ-1_qIEGaHzAToekJYyRpuXevlfDMuMtXHD1OCKfSWMiY3nOFw"
+      },
+      {
+        "title": "Discrepancy-Aware Graph Mask Auto-Encoder",
+        "authors": "Ziyu Zheng, Yaming Yang, Ziyu Guan, Wei Zhao, Weigang Lu",
+        "venue": "SIGKDD",
+        "year": "2025",
+        "image": "images/dgmae.png",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3711896.3736912?casa_token=7NPbubRNaKUAAAAA:9Te7hoLNCq8RrSlXDJEq0t0Mnge51xujoup-hRO2BTF1cUk3ObDx6HKIZt9hYffDWycQhD4OEQm58A"
+      },
+      {
+        "title": "A Translation-based Heterogeneous Graph Neural Network for Multiple Knowledge Graphs Alignment",
+        "authors": "Yaming Yang, Zhuofeng Luo, Zhe Wang, Weigang Lu, Yiheng Lu, Ziyu Guan, Wei Zhao*, Yuanhai Lv",
+        "venue": "ICDE",
+        "year": "2025",
+        "image": "images/kg2hin.png",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11112878?casa_token=ZxiI5muTB_wAAAAA:5QoWzb2NpoWiz4NgqiqIdavXXa7Ipwilq_U1WIC9vb232k4zjHjoYA9HSK-arqGsugEcK7ZRwA"
+      },
+      {
+        "title": "Graph Substructure Assembling Network with Soft Sequence and Context Attention",
+        "authors": "Yaming Yang, Ziyu Guan, Wei Zhao*, Weigang Lu, Bo Zong",
+        "venue": "IEEE TKDE",
+        "year": "2023",
+        "image": "images/sanssca.png",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9706276?casa_token=h9MM2ptIdGsAAAAA:RGh2JWNQ2Hde8sMkePRsdiI7MhsWvZKjbpcdHCCT4lBBsNzomwbHVe844iY5Qtam63Q13ZbMVA"
+      },
+      {
+        "title": "Self-supervised Heterogeneous Graph Pre-training based on Structural Clustering",
+        "authors": "Yaming Yang, Ziyu Guan, Zhe Wang, Wei Zhao*, Cai Xu, Weigang Lu, Jianbin Huang",
+        "venue": "NeurIPS",
+        "year": "2022",
+        "image": "images/shgp.png",
+        "notes": "Spotlight",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/6c7297baffe5c85ea1d9e1ccb1222ab8-Abstract-Conference.html"
+      }
+    ]
+  },
+  "education": [
+    {
+      "school": {"en": "Xidian University", "zh": "西安电子科技大学"},
+      "department": {"en": "School of Computer Science and Technology", "zh": "计算机科学与技术学院"},
+      "degree": {"en": "Ph.D. in Computer Science", "zh": "博士（硕博连读），计算机科学与技术"},
+      "period": "2022.03 - 2025.06",
+      "advisor": {"en": "Supervisor: Prof. Ziyu Guan", "zh": "导师：管子玉教授"},
+      "image": "images/education/xidian_log.svg"
+    },
+    {
+      "school": {"en": "Xidian University", "zh": "西安电子科技大学"},
+      "department": {"en": "School of Computer Science and Technology", "zh": "计算机科学与技术学院"},
+      "degree": {"en": "M.S. in Computer Science", "zh": "硕士，计算机技术"},
+      "period": "2019.09 - 2021.12",
+      "advisor": {"en": "Supervisor: Prof. Wei Zhao", "zh": "导师：赵伟教授"},
+      "image": "images/education/xidian_log.svg"
+    },
+    {
+      "school": {"en": "Anhui Polytechnic University", "zh": "安徽工程大学"},
+      "department": {"en": "School of Computer and Information", "zh": "计算机与信息学院"},
+      "degree": {"en": "B.S. in Internet of Things", "zh": "学士，计算机科学与技术"},
+      "period": "2015.09 - 2019.07",
+      "advisor": {"en": "", "zh": ""},
+      "image": "images/education/Anhui_Polytechnic_University.jpg"
+    }
+  ],
+  "honors": {
+    "zh": [
+      {"date": "2025", "title": "AAAI 学生旅游奖学金"},
+      {"date": "2024", "title": "研究生国家奖学金"},
+      {"date": "2024", "title": "ACM SIGKDD 学生旅游奖学金"},
+      {"date": "2024", "title": "国家建设高水平大学公派研究生项目"},
+      {"date": "2024", "title": "西安电子科技大学优秀博士学位论文资助基金"},
+      {"date": "2024", "title": "博士学业二等奖学金"},
+      {"date": "2024", "title": "校级优秀研究生"},
+      {"date": "2021/2022", "title": "研究生学术年会优秀学术论文奖"}
+    ],
+    "en": [
+      {"date": "2024", "title": "National Scholarship for Postgraduates"},
+      {"date": "2024", "title": "China Scholarship Council (CSC) Scholarship"},
+      {"date": "2025", "title": "AAAI Student Travel Award"},
+      {"date": "2024", "title": "ACM SIGKDD Student Travel Award"},
+      {"date": "2024", "title": "Outstanding Doctoral Dissertation Funding Program (Xidian University)"},
+      {"date": "2024", "title": "Second-class Ph.D. Scholarship (Xidian University)"},
+      {"date": "2024", "title": "Outstanding Graduate Student Scholarship (Xidian University)"},
+      {"date": "2021/2022", "title": "Annual Academic Conference Outstanding Paper Award (Xidian University)"}
+    ]
+  },
+  "services": {
+    "journals": {
+      "zh": [
+        "IEEE Transactions on Knowledge and Data Engineering",
+        "IEEE Transactions on Neural Networks and Learning Systems",
+        "ACM Transactions on Knowledge Discovery from Data",
+        "Neural Networks",
+        "Scientific Reports"
+      ],
+      "en": [
+        "IEEE Transactions on Knowledge and Data Engineering",
+        "IEEE Transactions on Neural Networks and Learning Systems",
+        "ACM Transactions on Knowledge Discovery from Data",
+        "Neural Networks",
+        "Scientific Reports"
+      ]
+    },
+    "conferences": {
+      "zh": [
+        "AAAI, 2025",
+        "NeurIPS, 2025",
+        "ACM SIGKDD, 2024, 2025",
+        "WebConf, 2023, 2024",
+        "International Conference on Data Mining (ICDM), 2024",
+        "ACML, 2025"
+      ],
+      "en": [
+        "AAAI, 2026",
+        "NeurIPS, 2026",
+        "ACM SIGKDD, 2024, 2025, 2026",
+        "WebConf, 2026",
+        "International Conference on Data Mining (ICDM), 2024",
+        "ACML, 2025"
+      ]
+    }
+  },
+  "footer": {
+    "en": "Last updated: 2025-01",
+    "zh": "最近更新：2025-01"
+  }
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weigang Lu - Academic Homepage</title>
+    <meta id="metaDescription" name="description" content="Academic homepage of Weigang Lu">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <nav class="top-nav">
+      <div class="nav-container">
+        <div class="nav-logo"><a href="#home" id="navLogo">Weigang Lu</a></div>
+        <ul class="nav-menu" id="navMenu"></ul>
+        <div class="language-toggle" aria-label="Language toggle">
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <section id="home" class="hero-section fade-up">
+        <div class="hero-card">
+          <div class="hero-top">
+            <img id="heroAvatar" class="hero-avatar" src="images/you.jpg" alt="Weigang Lu">
+            <div>
+              <h1 id="heroName" class="hero-name">Weigang Lu</h1>
+              <p id="heroTitle" class="hero-title">Postdoctoral Fellow</p>
+              <p id="heroAffiliation" class="hero-meta"></p>
+              <p id="heroLocation" class="hero-meta"></p>
+            </div>
+          </div>
+          <p id="heroTagline" class="hero-tagline"></p>
+          <div class="hero-links" id="heroLinks"></div>
+        </div>
+      </section>
+
+      <section id="about" class="section fade-up">
+        <h2 class="section-title"><i class="fas fa-user"></i> <span id="aboutTitle">About</span></h2>
+        <div class="card-grid">
+          <div class="card">
+            <h3 id="introTitle">Introduction</h3>
+            <div id="aboutIntro"></div>
+          </div>
+          <div class="card">
+            <h3 id="interestsTitle">Research Interests</h3>
+            <div id="aboutInterests"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section fade-up">
+        <h2 class="section-title"><i class="fas fa-file-lines"></i> <span id="publicationsTitle">Publications</span></h2>
+        <div class="card">
+          <!-- <h3 id="publishedTitle">Published</h3> -->
+          <div id="pubPublished"></div>
+        </div>
+        <div id="correspondingNote" class="section-footer"></div>
+      </section>
+
+            <section id="honors" class="section fade-up">
+        <h2 class="section-title"><i class="fas fa-trophy"></i> <span id="honorsTitle">Honors</span></h2>
+        <div class="card">
+          <div id="honorsList"></div>
+        </div>
+      </section>
+      
+      <section id="education" class="section fade-up">
+        <h2 class="section-title"><i class="fas fa-graduation-cap"></i> <span id="educationTitle">Education</span></h2>
+        <div class="card">
+          <div id="educationList"></div>
+        </div>
+      </section>
+
+      <section id="services" class="section fade-up">
+        <h2 class="section-title"><i class="fas fa-handshake"></i> <span id="servicesTitle">Services</span></h2>
+        <div class="card-grid">
+          <div class="card">
+            <h3 id="servicesJournalTitle">Journal Reviewer</h3>
+            <div id="servicesJournalList"></div>
+          </div>
+          <div class="card">
+            <h3 id="servicesConferenceTitle">Conference Reviewer</h3>
+            <div id="servicesConferenceList"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-footer" id="footerText"></div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
