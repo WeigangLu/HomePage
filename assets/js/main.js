@@ -102,14 +102,14 @@ function renderPublications(pubs) {
       wrapper.setAttribute("aria-label", pub.title);
     }
     wrapper.innerHTML = `
-      <div class=\"pub-media\">
-        <img src=\"${pub.image || "images/paper-placeholder.svg"}\" alt=\"${pub.title}\" loading=\"lazy\">
+      <div class="pub-media">
+        <img src="${pub.image || 'images/paper-placeholder.svg'}" alt="${pub.title}" loading="lazy">
       </div>
-      <div class=\"pub-body\">
-        <div class=\"pub-title\">${pub.title}</div>
-        <div class=\"pub-meta\">${highlightAuthor(pub.authors)}</div>
-        <div class=\"pub-meta\">${pub.venue} ${pub.year}</div>
-        ${pub.notes ? `<div class=\"pub-tags\"><span>${pub.notes}</span></div>` : ""}
+      <div class="pub-body">
+        <div class="pub-title">${pub.title}</div>
+        <div class="pub-meta">${highlightAuthor(pub.authors)}</div>
+        <div class="pub-meta">${pub.venue} ${pub.year}</div>
+        ${pub.notes ? `<div class="pub-tags"><span>${pub.notes}</span></div>` : ""}
       </div>
     `;
     published.appendChild(wrapper);
@@ -225,9 +225,15 @@ function setupReveal() {
         }
       });
     },
-    { threshold: 0.2 }
+    { threshold: 0.1 }
   );
-  targets.forEach((el) => observer.observe(el));
+  targets.forEach((el) => {
+    // Check if element is already in viewport
+    if (el.getBoundingClientRect().top < window.innerHeight) {
+      el.classList.add("visible");
+    }
+    observer.observe(el);
+  });
 }
 
 fetch("data/site.json")
