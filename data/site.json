@@ -84,20 +84,31 @@
   "publications": {
     "published": [
       {
-        "title": "Beyond Single-Granularity Prompts: A Multi-Scale Chain-of-Thought Prompt Learning for Graph",
-        "authors": "Ziyu Zheng, Yaming Yang, Ziyu Guan, Wei Zhao*, Xinyan Huang, Weigang Lu",
-        "venue": "WWW",
-        "year": "2026",
-        "image": "images/msgcot.png",
-        "url": "https://dl.acm.org/doi/abs/10.1145/3774904.3792115"
-      },
-      {
         "title": "MessageShift: Fine-Grained Data Augmentation for Graph Neural Networks",
         "authors": "Weigang Lu, Zheng Liang*, Yaming Yang, Ziyu Zheng, Meng Yan, Beilei Ling, Ziyu Guan, Wei Zhao",
         "venue": "WWW",
         "year": "2026",
+        "notes": "Oral",
         "image": "images/messageshift.png",
-        "url": "https://arxiv.org/abs/2507.19031"
+        "url": "https://dl.acm.org/doi/10.1145/3774904.3792426"
+      },
+      {
+        "title": "Aligning Multiple Knowledge Graphs in A Single Pass",
+        "authors": "Yaming Yang, Zhe Wang, Ziyu Guan*, Wei Zhao, Weigang Lu, Xinyan Huang, Jiangtao Cui, Xiaofei He",
+        "venue": "WWW",
+        "year": "2026",
+        "notes": "Oral",
+        "image": "images/messageshift.png",
+        "url": "https://dl.acm.org/doi/epdf/10.1145/3774904.3792111"
+      },
+      {
+        "title": "Beyond Single-Granularity Prompts: A Multi-Scale Chain-of-Thought Prompt Learning for Graph",
+        "authors": "Ziyu Zheng, Yaming Yang, Ziyu Guan, Wei Zhao*, Xinyan Huang, Weigang Lu",
+        "venue": "WWW",
+        "year": "2026",
+        "notes": "Oral",
+        "image": "images/msgcot.png",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3774904.3792115"
       },
       {
         "title": "ProGMLP: A Progressive Framework for GNN-to-MLP Knowledge Distillation with Efficient Trade-offs",
