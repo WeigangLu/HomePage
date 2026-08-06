@@ -17,16 +17,18 @@ News
 <div class="news-box">
   <ul class="news-list">
 
-<li><span class="news-date"><em>2026.01</em></span> 🎉🎉 One paper accepted at <strong>WWW 2026</strong> as <strong>Oral</strong> presentation!</li>
-<li><span class="news-date"><em>2025.12</em></span> 🎉🎉 One paper accepted at <strong>AAAI 2026</strong> as <strong>Oral</strong> presentation!</li>
+<li><span class="news-date"><em>2026.01</em></span> 🎉🎉 Three papers accepted at <strong>WWW 2026 (3 Oral)</strong> as <strong>Oral</strong> presentation!</li>
+<li><span class="news-date"><em>2025.12</em></span> 🎉🎉 One paper accepted at <strong>AAAI 2026 (Oral)</strong> as <strong>Oral</strong> presentation!</li>
 <li><span class="news-date"><em>2025.09</em></span> 🎉🎉 One paper accepted at <strong>NeurIPS 2025</strong>!</li>
-<li><span class="news-date"><em>2025.07</em></span> 🎉🎉 One paper accepted at <strong>SIGKDD 2025</strong>!</li>
+<li><span class="news-date"><em>2025.07</em></span> 🎉🎉 Two paper accepted at <strong>SIGKDD 2025</strong>!</li>
 <li><span class="news-date"><em>2025.06</em></span> 🎓🎓 Successfully defended my Ph.D. thesis at Xidian University!</li>
-<li><span class="news-date"><em>2025.02</em></span> 🎉🎉 One paper accepted at <strong>ICDE 2025</strong>!</li>
-<li><span class="news-date"><em>2025.01</em></span> 🎉🎉 One paper accepted at <strong>AAAI 2025</strong>!</li>
-<li><span class="news-date"><em>2024.12</em></span> 🏆🏆 Received the <strong>National Scholarship for Postgraduates</strong>!</li>
-<li><span class="news-date"><em>2024.09</em></span> 🎉🎉 One paper accepted at <strong>SIGKDD 2024</strong>!</li>
+<li><span class="news-date"><em>2025.02</em></span> 🎉🎉 Two paper accepted at <strong>ICDE 2025</strong>!</li>
+<li><span class="news-date"><em>2024.12</em></span> 🎉🎉 One paper accepted at <strong>AAAI 2025</strong>!</li>
 <li><span class="news-date"><em>2024.08</em></span> 🏆🏆 Received <strong>ACM SIGKDD Student Travel Award</strong>!</li>
+<li><span class="news-date"><em>2024.07</em></span> 🏆🏆 Received the <strong>National Scholarship for Postgraduates</strong>!</li>
+<li><span class="news-date"><em>2024.05</em></span> 🎉🎉 One paper accepted at <strong>SIGKDD 2024</strong>!</li>
+<li><span class="news-date"><em>2024.02</em></span> 🎉🎉 One paper accepted at <strong>TKDE 2024</strong>!</li>
+<li><span class="news-date"><em>2023.12</em></span> 🎉🎉 One paper accepted at <strong>AAAI 2024</strong>!</li>
   </ul>
 </div>
 
@@ -39,7 +41,7 @@ Experience
       <img src="images/hkust.png" alt="HKUST logo" class="experience-logo" onerror="this.style.display='none'">
       <div class="experience-info">
           <strong>Hong Kong University of Science and Technology</strong><br>
-          <em>2025 - Present</em><br>
+          <em>2025.09 - Present</em><br>
           Postdoctoral Fellow at <a href="https://www.hkust.edu.hk/"><em>Department of Civil and Environmental Engineering</em></a><br>
           <span style="color:#888;">Research on semi-supervised learning and graph neural networks.</span>
       </div>

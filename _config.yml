@@ -1,7 +1,7 @@
 locale                   : "en-US"
 title                    : "Weigang Lu"
 title_separator          : "-"
-name                     : "Weigang Lu"
+name                     : "Weigang Lu (陆维港)"
 description              : &description "Postdoctoral Fellow at HKUST. Research on semi-supervised learning and graph neural networks."
 url                      : "https://weiganglu.github.io"
 baseurl                  : "/HomePage"
@@ -9,11 +9,10 @@ repository               : "weiganglu/HomePage"
 
 author:
   avatar           : "you.jpg"
-  name             : "Weigang Lu"
-  pronouns         : "he/his"
-  bio              : "Postdoctoral Fellow at the Department of Civil and Environmental Engineering, HKUST. Ph.D. in Computer Science from Xidian University. Research interests include semi-supervised learning and graph neural networks, with publications in NeurIPS, SIGKDD, AAAI, ICDE, and IEEE TKDE."
-  location         : "Hong Kong, China"
-  employer         : "Hong Kong University of Science and Technology"
+  name             : "Weigang Lu (陆维港)"
+  # pronouns         : "he/his"
+  bio              : "Postdoctoral Fellow at the Department of Civil and Environmental Engineering, HKUST."
+  employer         : "The Hong Kong University of Science and Technology"
   uri              :
   email            : "weiganglu314@outlook.com"
 
