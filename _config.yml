@@ -9,10 +9,11 @@ repository               : "weiganglu/HomePage"
 
 author:
   avatar           : "you.jpg"
-  name             : "Weigang Lu (陆维港)"
-  pronouns         : "he/his"
-  bio              : "Postdoctoral Fellow at the Department of Civil and Environmental Engineering, HKUST. Ph.D. in Computer Science from Xidian University. Research interests include semi-supervised learning and graph neural networks."
+  name             : "Weigang Lu 陆维港"
+  # pronouns         : "he/his"
+  # bio              : "Postdoctoral Fellow at the Department of Civil and Environmental Engineering, HKUST. Ph.D. in Computer Science from Xidian University. Research interests include semi-supervised learning and graph neural networks."
   location         : "Hong Kong SAR, China"
+  institute        : "HKUST"
   employer         : "The Hong Kong University of Science and Technology"
   uri              :
   email            : "weiganglu314@outlook.com"
