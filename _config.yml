@@ -10,27 +10,31 @@ repository               : "weiganglu/HomePage"
 author:
   avatar           : "you.jpg"
   name             : "Weigang Lu (陆维港)"
-  # pronouns         : "he/his"
-  bio              : "Postdoctoral Fellow at the Department of Civil and Environmental Engineering, HKUST."
+  pronouns         : "he/his"
+  bio              : "Postdoctoral Fellow at the Department of Civil and Environmental Engineering, HKUST. Ph.D. in Computer Science from Xidian University. Research interests include semi-supervised learning and graph neural networks."
+  location         : "Hong Kong, China"
   employer         : "The Hong Kong University of Science and Technology"
   uri              :
   email            : "weiganglu314@outlook.com"
 
+  # Academic profiles
   arxiv            :
   googlescholar    : "https://scholar.google.com/citations?user=SThY8qUAAAAJ&hl=en"
   impactstory      :
-  orcid            :
+  orcid            : "https://orcid.org/0009-0008-4666-0328"
   semantic         :
   pubmed           :
-  researchgate     :
+  researchgate     : "Weigang-Lu"
 
+  # Code repositories
   bitbucket        :
   codepen          :
   dribbble         :
-  github           :
+  github           : "WeigangLu"
   kaggle           :
   stackoverflow    :
 
+  # Social media
   WeChat           :
   linkedin         :
   bilibili         :
