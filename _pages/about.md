@@ -43,7 +43,7 @@ Experience
           <strong>Hong Kong University of Science and Technology</strong><br>
           <em>2025.09 - Present</em><br>
           Postdoctoral Fellow at <a href="https://www.hkust.edu.hk/"><em>Department of Civil and Environmental Engineering</em></a><br>
-          <span style="color:#888;">Supervisor: <a href="https://cehklo.people.ust.hk/"><em>Prof. Hong K. Lo</em></a>. Research on semi-supervised learning and graph neural networks.</span>
+          <span style="color:#888;">Supervisor: <a href="https://cehklo.people.ust.hk/"><em>Prof. Hong K. Lo</em></a>.</span>
       </div>
   </div>
 
@@ -58,7 +58,7 @@ Experience
   </div>
 
   <div class="experience-card">
-      <img src="images/jd.png" alt="JD logo" class="experience-logo" onerror="this.style.display='none'">
+      <img src="images/jd.jpg" alt="JD logo" class="experience-logo" onerror="this.style.display='none'">
       <div class="experience-info">
           <strong>JD EXPLORE ACADEMY</strong><br>
           <em>2021.01 - 2021.12</em><br>
