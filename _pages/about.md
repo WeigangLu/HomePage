@@ -10,7 +10,7 @@ redirect_from:
 
 <h1 class="main-heading">Welcome to my Homepage!</h1>
 
-I am a Postdoctoral Fellow at the <a href="https://www.hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, working in the Department of Civil and Environmental Engineering. I received my Ph.D. in Computer Science from <a href="https://www.xidian.edu.cn/">Xidian University</a> in 2025. My research focuses on semi-supervised learning and graph neural networks.
+I am a Postdoctoral Fellow at the <a href="https://www.hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, working in the Department of Civil and Environmental Engineering. I received my Ph.D. in Computer Science from <a href="https://www.xidian.edu.cn/">Xidian University</a> in 2025. My research focuses on semi-supervised learning and graph neural networks, with publications in top-tier venues including NeurIPS, SIGKDD, AAAI, ICDE, WWW, and IEEE TKDE. I also serve as a reviewer for leading academic journals and conferences, and as Session Chair for WWW 2026 and AAAI 2026.
 
 News
 ---------------
@@ -43,7 +43,27 @@ Experience
           <strong>Hong Kong University of Science and Technology</strong><br>
           <em>2025.09 - Present</em><br>
           Postdoctoral Fellow at <a href="https://www.hkust.edu.hk/"><em>Department of Civil and Environmental Engineering</em></a><br>
-          <span style="color:#888;">Research on semi-supervised learning and graph neural networks.</span>
+          <span style="color:#888;">Supervisor: <a href="https://cehklo.people.ust.hk/"><em>Prof. Hong K. Lo</em></a>. Research on semi-supervised learning and graph neural networks.</span>
+      </div>
+  </div>
+
+  <div class="experience-card">
+      <img src="images/hkust.png" alt="HKUST logo" class="experience-logo" onerror="this.style.display='none'">
+      <div class="experience-info">
+          <strong>Hong Kong University of Science and Technology</strong><br>
+          <em>2025.04 - 2025.06</em><br>
+          Visiting Student at <a href="https://www.hkust.edu.hk/"><em>Department of Civil and Environmental Engineering</em></a><br>
+          <span style="color:#888;">Supervisor: <a href="https://cehklo.people.ust.hk/"><em>Prof. Hong K. Lo</em></a>.</span>
+      </div>
+  </div>
+
+  <div class="experience-card">
+      <img src="images/jd.png" alt="JD logo" class="experience-logo" onerror="this.style.display='none'">
+      <div class="experience-info">
+          <strong>JD EXPLORE ACADEMY</strong><br>
+          <em>2021.01 - 2021.12</em><br>
+          Algorithm Engineer Intern<br>
+          <span style="color:#888;">Supervisor: <a href="https://dr.ntu.edu.sg/cris/rp/rp02343"><em>Prof. Dacheng Tao</em></a>.</span>
       </div>
   </div>
 
@@ -322,6 +342,46 @@ Publications
       <span class="pub-list-note">Spotlight.</span>
       <span class="pub-list-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/6c7297baffe5c85ea1d9e1ccb1222ab8-Abstract-Conference.html">[Paper]</a></span>
     </li>
+    <li>
+      <span class="pub-list-badge">Neurocomputing 2025</span>
+      <span class="pub-list-title">Pseudo Contrastive Learning for Graph-based Semi-supervised Learning</span><br>
+      <span class="pub-list-authors">
+        <strong>Weigang Lu</strong>, Ziyu Guan&dagger;, Wei Zhao, Yaming Yang, Yuanhai Lv, Lining Xing, Baosheng Yu, Dacheng Tao.
+      </span>
+      <span class="pub-list-links"><a href="#">[Paper]</a></span>
+    </li>
+    <li>
+      <span class="pub-list-badge">Pattern Recognition 2025</span>
+      <span class="pub-list-title">Does Noise in the Knowledge Graph Really Harm Recommendations?</span><br>
+      <span class="pub-list-authors">
+        Meng Yan, Cai Xu, Ziyu Guan&dagger;, Wei Zhao, Xujing Wang, Beilei Ling, <strong>Weigang Lu&dagger;</strong>.
+      </span>
+      <span class="pub-list-links"><a href="#">[Paper]</a></span>
+    </li>
+    <li>
+      <span class="pub-list-badge">Neurocomputing 2025</span>
+      <span class="pub-list-title">G-NodeMixup: Enhancing Graph Neural Networks Reachability under Extremely Limited Labels</span><br>
+      <span class="pub-list-authors">
+        Ziyu Guan, Beilei Ling, <strong>Weigang Lu&dagger;</strong>, Meng Yan, Yaming Yang, Wei Zhao, Yibing Zhan, Yiheng Lu, Dapeng Tao.
+      </span>
+      <span class="pub-list-links"><a href="#">[Paper]</a></span>
+    </li>
+    <li>
+      <span class="pub-list-badge">DASFAA 2026</span>
+      <span class="pub-list-title">Collaborative Pattern Mining in Activity Graphs</span><br>
+      <span class="pub-list-authors">
+        Beilei Ling, Ziyu Guan, Wei Zhao, Yiheng Lu, Meng Yan, Cai Xu, <strong>Weigang Lu</strong>, Beizeng Ling.
+      </span>
+      <span class="pub-list-links"><a href="#">[Paper]</a></span>
+    </li>
+    <li>
+      <span class="pub-list-badge">IEEE TKDE 2023</span>
+      <span class="pub-list-title">Graph Substructure Assembling Network with Soft Sequence and Context Attention</span><br>
+      <span class="pub-list-authors">
+        Yaming Yang, Ziyu Guan&dagger;, Wei Zhao, <strong>Weigang Lu</strong>, Bo Zong.
+      </span>
+      <span class="pub-list-links"><a href="https://ieeexplore.ieee.org/abstract/document/9706276">[Paper]</a></span>
+    </li>
   </ul>
 </div>
 
@@ -344,17 +404,23 @@ Awards
 Services
 --------
 
+**Session Chair:**
+- WWW 2026, Session Chair
+- AAAI 2026, Session Co-chair
+
 **Journal Reviewer:**
 - IEEE Transactions on Knowledge and Data Engineering (TKDE)
 - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+- Information Processing and Management (IP&M)
+- Neurocomputing
 - ACM Transactions on Knowledge Discovery from Data (TKDD)
 - Neural Networks
 - Scientific Reports
 
 **Conference Reviewer:**
-- AAAI 2026
 - NeurIPS 2026
-- ACM SIGKDD 2024, 2025, 2026
+- ACM SIGKDD 2024, 2025, 2026, 2027
+- AAAI 2026, 2027
 - WebConf 2026
+- WSDM 2027
 - ICDM 2024
-- ACML 2025
