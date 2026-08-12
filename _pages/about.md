@@ -48,6 +48,16 @@ Experience
   </div>
 
   <div class="experience-card">
+      <img src="images/education/xidian_log.svg" alt="Xidian University logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>Xidian University</strong><br>
+          <em>2022.03 - 2025.06</em><br>
+          Ph.D. in Computer Science, advised by <a href="https://web.xidian.edu.cn/guanziyu/"><em>Prof. Ziyu Guan</em></a><br>
+          <span style="color:#888;">School of Computer Science and Technology.</span>
+      </div>
+  </div>
+
+  <div class="experience-card">
       <img src="images/hkust.png" alt="HKUST logo" class="experience-logo" onerror="this.style.display='none'">
       <div class="experience-info">
           <strong>Hong Kong University of Science and Technology</strong><br>
@@ -64,16 +74,6 @@ Experience
           <em>2021.01 - 2021.12</em><br>
           Algorithm Engineer Intern<br>
           <span style="color:#888;">Supervisor: <a href="https://dr.ntu.edu.sg/cris/rp/rp02343"><em>Prof. Dacheng Tao</em></a>.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/education/xidian_log.svg" alt="Xidian University logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Xidian University</strong><br>
-          <em>2022.03 - 2025.06</em><br>
-          Ph.D. in Computer Science, advised by <a href="https://web.xidian.edu.cn/guanziyu/"><em>Prof. Ziyu Guan</em></a><br>
-          <span style="color:#888;">School of Computer Science and Technology.</span>
       </div>
   </div>
 
@@ -104,7 +104,7 @@ Publications
 <button class="pub-button active" onclick="filterPublications(event, 'all')">Highlighted Publications</button>
 <button class="pub-button" onclick="filterPublications(event, 'list')">Full Publications List</button>
 
-(* equal contribution · &dagger; corresponding author)
+(* equal contribution · <span style="color:#d97706;">&dagger; corresponding author</span> · <span style="color:#1a73e8;">first author</span>)
 
 <div id="core-publications" class="publication-view" data-publication-view="core">
 <div class="publication-card" data-category="all"> 
@@ -115,7 +115,7 @@ Publications
     <div>
       <strong>MessageShift: Fine-Grained Data Augmentation for Graph Neural Networks</strong><br>
       <i style="font-size: 13px;">
-        <strong>Weigang Lu</strong>,
+        <strong class="first-author">Weigang Lu</strong>,
         Zheng Liang*,
         Yaming Yang,
         Ziyu Zheng,
@@ -140,7 +140,7 @@ Publications
     <div>
       <strong>ProGMLP: A Progressive Framework for GNN-to-MLP Knowledge Distillation with Efficient Trade-offs</strong><br>
       <i style="font-size: 13px;">
-        <strong>Weigang Lu</strong>,
+        <strong class="first-author">Weigang Lu</strong>,
         Ziyu Guan&dagger;,
         Wei Zhao,
         Yaming Yang,
@@ -165,7 +165,7 @@ Publications
     <div>
       <strong>AGMixup: Adaptive Graph Mixup for Semi-supervised Node Classification</strong><br>
       <i style="font-size: 13px;">
-        <strong>Weigang Lu</strong>,
+        <strong class="first-author">Weigang Lu</strong>,
         Ziyu Guan&dagger;,
         Wei Zhao,
         Yaming Yang,
@@ -189,7 +189,7 @@ Publications
     <div>
       <strong>AdaGMLP: AdaBoosting GNN-to-MLP Knowledge Distillation</strong><br>
       <i style="font-size: 13px;">
-        <strong>Weigang Lu</strong>,
+        <strong class="first-author">Weigang Lu</strong>,
         Ziyu Guan&dagger;,
         Wei Zhao,
         Yaming Yang.
@@ -210,7 +210,7 @@ Publications
     <div>
       <strong>SkipNode: On Alleviating Performance Degradation for Deep Graph Convolutional Networks</strong><br>
       <i style="font-size: 13px;">
-        <strong>Weigang Lu</strong>,
+        <strong class="first-author">Weigang Lu</strong>,
         Yibing Zhan,
         Binbin Lin&dagger;,
         Ziyu Guan&dagger;,
@@ -237,7 +237,7 @@ Publications
       <span class="pub-list-badge">WWW 2026</span>
       <span class="pub-list-title">MessageShift: Fine-Grained Data Augmentation for Graph Neural Networks</span><br>
       <span class="pub-list-authors">
-        <strong>Weigang Lu</strong>, Zheng Liang*, Yaming Yang, Ziyu Zheng, Meng Yan, Beilei Ling, Ziyu Guan, Wei Zhao.
+        <strong class="first-author">Weigang Lu</strong>, Zheng Liang*, Yaming Yang, Ziyu Zheng, Meng Yan, Beilei Ling, Ziyu Guan, Wei Zhao.
       </span>
       <span class="pub-list-note">Oral.</span>
       <span class="pub-list-links"><a href="https://dl.acm.org/doi/10.1145/3774904.3792426">[Paper]</a></span>
@@ -264,7 +264,7 @@ Publications
       <span class="pub-list-badge">AAAI 2026</span>
       <span class="pub-list-title">ProGMLP: A Progressive Framework for GNN-to-MLP Knowledge Distillation with Efficient Trade-offs</span><br>
       <span class="pub-list-authors">
-        <strong>Weigang Lu</strong>, Ziyu Guan&dagger;, Wei Zhao, Yaming Yang, Yujie Sun, Zheng Liang, Yibing Zhan, Dapeng Tao.
+        <strong class="first-author">Weigang Lu</strong>, Ziyu Guan&dagger;, Wei Zhao, Yaming Yang, Yujie Sun, Zheng Liang, Yibing Zhan, Dapeng Tao.
       </span>
       <span class="pub-list-note">Oral.</span>
       <span class="pub-list-links"><a href="https://arxiv.org/abs/2507.19031">[arXiv]</a></span>
@@ -273,7 +273,7 @@ Publications
       <span class="pub-list-badge">ICDE 2025</span>
       <span class="pub-list-title">SkipNode: On Alleviating Performance Degradation for Deep Graph Convolutional Networks (Extended Abstract)</span><br>
       <span class="pub-list-authors">
-        <strong>Weigang Lu</strong>, Yibing Zhan, Binbin Lin&dagger;, Ziyu Guan&dagger;, Liu Liu, Baosheng Yu, Wei Zhao, Yaming Yang, Dacheng Tao.
+        <strong class="first-author">Weigang Lu</strong>, Yibing Zhan, Binbin Lin&dagger;, Ziyu Guan&dagger;, Liu Liu, Baosheng Yu, Wei Zhao, Yaming Yang, Dacheng Tao.
       </span>
       <span class="pub-list-links"><a href="https://www.computer.org/csdl/proceedings-article/icde/2025/360300e708/26FZDa0f0Pu">[Paper]</a></span>
     </li>
@@ -281,7 +281,7 @@ Publications
       <span class="pub-list-badge">AAAI 2025</span>
       <span class="pub-list-title">AGMixup: Adaptive Graph Mixup for Semi-supervised Node Classification</span><br>
       <span class="pub-list-authors">
-        <strong>Weigang Lu</strong>, Ziyu Guan&dagger;, Wei Zhao, Yaming Yang, Yibing Zhan, Yiheng Lu, Dapeng Tao.
+        <strong class="first-author">Weigang Lu</strong>, Ziyu Guan&dagger;, Wei Zhao, Yaming Yang, Yibing Zhan, Yiheng Lu, Dapeng Tao.
       </span>
       <span class="pub-list-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/34107">[Paper]</a></span>
     </li>
@@ -313,7 +313,7 @@ Publications
       <span class="pub-list-badge">SIGKDD 2024</span>
       <span class="pub-list-title">AdaGMLP: AdaBoosting GNN-to-MLP Knowledge Distillation</span><br>
       <span class="pub-list-authors">
-        <strong>Weigang Lu</strong>, Ziyu Guan&dagger;, Wei Zhao, Yaming Yang.
+        <strong class="first-author">Weigang Lu</strong>, Ziyu Guan&dagger;, Wei Zhao, Yaming Yang.
       </span>
       <span class="pub-list-links"><a href="https://dl.acm.org/doi/abs/10.1145/3637528.3671699">[Paper]</a></span>
     </li>
@@ -321,7 +321,7 @@ Publications
       <span class="pub-list-badge">IEEE TKDE 2024</span>
       <span class="pub-list-title">SkipNode: On Alleviating Performance Degradation for Deep Graph Convolutional Networks</span><br>
       <span class="pub-list-authors">
-        <strong>Weigang Lu</strong>, Yibing Zhan, Binbin Lin&dagger;, Ziyu Guan&dagger;, Liu Liu, Baosheng Yu, Wei Zhao, Yaming Yang, Dacheng Tao.
+        <strong class="first-author">Weigang Lu</strong>, Yibing Zhan, Binbin Lin&dagger;, Ziyu Guan&dagger;, Liu Liu, Baosheng Yu, Wei Zhao, Yaming Yang, Dacheng Tao.
       </span>
       <span class="pub-list-links"><a href="https://ieeexplore.ieee.org/abstract/document/10497904">[Paper]</a></span>
     </li>
@@ -329,7 +329,7 @@ Publications
       <span class="pub-list-badge">AAAI 2024</span>
       <span class="pub-list-title">NodeMixup: Tackling Under-Reaching for Graph Neural Networks</span><br>
       <span class="pub-list-authors">
-        <strong>Weigang Lu</strong>, Ziyu Guan, Wei Zhao&dagger;, Yaming Yang, Long Jin.
+        <strong class="first-author">Weigang Lu</strong>, Ziyu Guan, Wei Zhao&dagger;, Yaming Yang, Long Jin.
       </span>
       <span class="pub-list-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29328">[Paper]</a></span>
     </li>
@@ -346,7 +346,7 @@ Publications
       <span class="pub-list-badge">Neurocomputing 2025</span>
       <span class="pub-list-title">Pseudo Contrastive Learning for Graph-based Semi-supervised Learning</span><br>
       <span class="pub-list-authors">
-        <strong>Weigang Lu</strong>, Ziyu Guan&dagger;, Wei Zhao, Yaming Yang, Yuanhai Lv, Lining Xing, Baosheng Yu, Dacheng Tao.
+        <strong class="first-author">Weigang Lu</strong>, Ziyu Guan&dagger;, Wei Zhao, Yaming Yang, Yuanhai Lv, Lining Xing, Baosheng Yu, Dacheng Tao.
       </span>
       <span class="pub-list-links"><a href="#">[Paper]</a></span>
     </li>
@@ -354,7 +354,7 @@ Publications
       <span class="pub-list-badge">Pattern Recognition 2025</span>
       <span class="pub-list-title">Does Noise in the Knowledge Graph Really Harm Recommendations?</span><br>
       <span class="pub-list-authors">
-        Meng Yan, Cai Xu, Ziyu Guan&dagger;, Wei Zhao, Xujing Wang, Beilei Ling, <strong>Weigang Lu&dagger;</strong>.
+        Meng Yan, Cai Xu, Ziyu Guan&dagger;, Wei Zhao, Xujing Wang, Beilei Ling, <strong class="corresponding-author">Weigang Lu&dagger;</strong>.
       </span>
       <span class="pub-list-links"><a href="#">[Paper]</a></span>
     </li>
@@ -362,7 +362,7 @@ Publications
       <span class="pub-list-badge">Neurocomputing 2025</span>
       <span class="pub-list-title">G-NodeMixup: Enhancing Graph Neural Networks Reachability under Extremely Limited Labels</span><br>
       <span class="pub-list-authors">
-        Ziyu Guan, Beilei Ling, <strong>Weigang Lu&dagger;</strong>, Meng Yan, Yaming Yang, Wei Zhao, Yibing Zhan, Yiheng Lu, Dapeng Tao.
+        Ziyu Guan, Beilei Ling, <strong class="corresponding-author">Weigang Lu&dagger;</strong>, Meng Yan, Yaming Yang, Wei Zhao, Yibing Zhan, Yiheng Lu, Dapeng Tao.
       </span>
       <span class="pub-list-links"><a href="#">[Paper]</a></span>
     </li>

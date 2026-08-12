@@ -213,14 +213,27 @@
   
     .full-publication-list {
         margin: 0;
-        padding-left: 1.25rem;
+        padding-left: 0;
         color: #5f6368;
         font-size: 15px;
         line-height: 1.55;
+        list-style: none;
+        counter-reset: pub-counter;
     }
 
     .full-publication-list li {
         margin-bottom: 14px;
+        counter-increment: pub-counter;
+        position: relative;
+        padding-left: 2.5em;
+    }
+
+    .full-publication-list li::before {
+        content: "[" counter(pub-counter) "]";
+        position: absolute;
+        left: 0;
+        font-weight: 700;
+        color: #b95f3d;
     }
 
     .pub-list-badge {
@@ -254,6 +267,16 @@
 
     .pub-list-authors > strong {
         color: #202124;
+    }
+
+    .pub-list-authors .first-author,
+    .publication-card .first-author {
+        color: #1a73e8 !important;
+    }
+
+    .pub-list-authors .corresponding-author,
+    .publication-card .corresponding-author {
+        color: #d97706 !important;
     }
 
       .pub-list-authors a strong {
@@ -343,8 +366,8 @@
             line-height: 1.35;
         }
 
-        .full-publication-list {
-            padding-left: 1rem;
+        .full-publication-list li {
+            padding-left: 2.2em;
         }
 
         .pub-list-badge {
