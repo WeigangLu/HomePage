@@ -17,6 +17,7 @@ News
 <div class="news-box">
   <ul class="news-list">
 
+<li><span class="news-date"><em>2026.08</em></span> 👨‍🏫👨‍🏫 I will be joining the School of Computer Science at Northwestern University (China) as a <strong>Professor</strong>!</li>
 <li><span class="news-date"><em>2026.01</em></span> 🎉🎉 Three papers accepted at <strong>WWW 2026 (3 Oral)</strong> as <strong>Oral</strong> presentation!</li>
 <li><span class="news-date"><em>2025.12</em></span> 🎉🎉 One paper accepted at <strong>AAAI 2026 (Oral)</strong> as <strong>Oral</strong> presentation!</li>
 <li><span class="news-date"><em>2025.09</em></span> 🎉🎉 One paper accepted at <strong>NeurIPS 2025</strong>!</li>
