@@ -10,14 +10,14 @@ redirect_from:
 
 <h1 class="main-heading">Welcome to my Homepage!</h1>
 
-I am a Postdoctoral Fellow at the <a href="https://www.hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, working in the Department of Civil and Environmental Engineering. I received my Ph.D. in Computer Science from <a href="https://www.xidian.edu.cn/">Xidian University</a> in 2025. My research focuses on semi-supervised learning and graph neural networks, with publications in top-tier venues including NeurIPS, SIGKDD, AAAI, ICDE, WWW, and IEEE TKDE. I also serve as a reviewer for leading academic journals and conferences, and as Session Chair for WWW 2026 and AAAI 2026.
+I am a <strong>Full Professor</strong> at the <a href="https://cs.nwu.edu.cn/">School of Computer Science</a>, <a href="https://www.nwu.edu.cn/">Northwest University (NWU, 西北大学)</a>, Xi'an, China. Before that, I was a Postdoctoral Fellow at the <a href="https://www.hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, working in the Department of Civil and Environmental Engineering. I received my Ph.D. in Computer Science from <a href="https://www.xidian.edu.cn/">Xidian University</a> in 2025. My research focuses on semi-supervised learning and graph neural networks, with publications in top-tier venues including NeurIPS, SIGKDD, AAAI, ICDE, WWW, and IEEE TKDE. I also serve as a reviewer for leading academic journals and conferences, and as Session Chair for WWW 2026 and AAAI 2026.
 
 News
 ---------------
 <div class="news-box">
   <ul class="news-list">
 
-<li><span class="news-date"><em>2026.08</em></span> 👨‍🏫👨‍🏫 I will be joining the School of Computer Science at Northwestern University (China) as a <strong>Professor</strong>!</li>
+<li><span class="news-date"><em>2026.09</em></span> 👨‍🏫👨‍🏫 I joined the School of Computer Science at Northwest University (NWU, China) as a <strong>Full Professor</strong>!</li>
 <li><span class="news-date"><em>2026.01</em></span> 🎉🎉 Three papers accepted at <strong>WWW 2026 (3 Oral)</strong> as <strong>Oral</strong> presentation!</li>
 <li><span class="news-date"><em>2025.12</em></span> 🎉🎉 One paper accepted at <strong>AAAI 2026 (Oral)</strong> as <strong>Oral</strong> presentation!</li>
 <li><span class="news-date"><em>2025.09</em></span> 🎉🎉 One paper accepted at <strong>NeurIPS 2025</strong>!</li>
@@ -39,10 +39,20 @@ Experience
 <div class="experience-container">
 
   <div class="experience-card">
+      <img src="images/nwu.png" alt="Northwest University logo" class="experience-logo" onerror="this.style.display='none'">
+      <div class="experience-info">
+          <strong>Northwest University (NWU)</strong><br>
+          <em>2026.09 - Present</em><br>
+          Full Professor at <a href="https://cs.nwu.edu.cn/"><em>School of Computer Science</em></a><br>
+          <span style="color:#888;">Chang'an Campus, No. 1 Xuefu Avenue, Chang'an District, Xi'an 710127, China.</span>
+      </div>
+  </div>
+
+  <div class="experience-card">
       <img src="images/hkust.png" alt="HKUST logo" class="experience-logo" onerror="this.style.display='none'">
       <div class="experience-info">
           <strong>Hong Kong University of Science and Technology</strong><br>
-          <em>2025.09 - Present</em><br>
+          <em>2025.09 - 2026.09</em><br>
           Postdoctoral Fellow at <a href="https://www.hkust.edu.hk/"><em>Department of Civil and Environmental Engineering</em></a><br>
           <span style="color:#888;">Supervisor: <a href="https://cehklo.people.ust.hk/"><em>Prof. Hong K. Lo</em></a>.</span>
       </div>

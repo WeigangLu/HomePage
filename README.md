@@ -78,8 +78,8 @@ author:
   name: "Weigang Lu"                   # 姓名
   pronouns: "he/his"                   # 代词
   bio: "您的详细简介..."                # 个人简介
-  location: "Hong Kong, China"         # 位置
-  employer: "HKUST"                    # 雇主/学校
+  location: "Xi'an, Shaanxi, China"    # 位置
+  employer: "Northwest University"     # 雇主/学校
   email: "your.email@example.com"      # 邮箱
   
   # 学术链接
@@ -149,12 +149,12 @@ Experience
 <div class="experience-container">
 
   <div class="experience-card">
-      <img src="images/hkust.png" alt="HKUST logo" class="experience-logo">
+      <img src="images/nwu.png" alt="NWU logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Hong Kong University of Science and Technology</strong><br>
-          <em>2025 - Present</em><br>
-          Postdoctoral Fellow at <a href="https://www.hkust.edu.hk/"><em>Department of Civil and Environmental Engineering</em></a><br>
-          <span style="color:#888;">Research on semi-supervised learning.</span>
+          <strong>Northwest University (NWU)</strong><br>
+          <em>2026.09 - Present</em><br>
+          Full Professor at <a href="https://cs.nwu.edu.cn/"><em>School of Computer Science</em></a><br>
+          <span style="color:#888;">Chang'an Campus, Xi'an, China.</span>
       </div>
   </div>
 
